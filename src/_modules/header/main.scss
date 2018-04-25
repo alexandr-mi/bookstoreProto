@@ -1,0 +1,21 @@
+/* header */
+@import 'btn';
+@import 'btn-back';
+@import 'btn-nav';
+@import 'nav';
+
+.header {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header__container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
