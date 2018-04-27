@@ -1,0 +1,15 @@
+.hero__right {
+  width: 69%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hero__right-top {
+  padding-left: 14%;
+}
+
+.hero__right-bottom {
+  padding-left: 8%;
+  width: 100%;
+}

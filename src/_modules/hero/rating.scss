@@ -1,0 +1,28 @@
+.hero__book-rating {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero__star-icon {
+  font-size: 15px;
+  margin-right: 5px;
+  color: #eee;
+}
+.hero__star-icon.gold {
+  color: gold;
+}
+.hero__number-reviews {
+  margin: 0 0 0 5px;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+@media screen  and (min-width: 500px) {
+  .hero__star-icon {
+    font-size: 20px;
+  }
+  .hero__number-reviews {
+    font-size: 16px;
+  }
+}

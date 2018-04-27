@@ -1,0 +1,64 @@
+
+.hero__btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__btn {
+  margin-left: 10px;
+  font-size: 24px;
+  user-select: none;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  background: white;
+  cursor: pointer;
+}
+
+.hero__btn-like {
+  color: rgba(241, 51, 59, 1.00);
+}
+.hero__btn-like-icon {
+  position: relative;
+  bottom: -2px;
+}
+.hero__btn-bookmark {
+  color: rgba(126, 157, 197, 1.00);
+}
+.hero__btn-bookmark-icon {
+  position: relative;
+  bottom: -2px;
+}
+
+.hero__btn-read {
+  font-weight: 600;
+
+  width: 130px;
+  color: white;
+  background: linear-gradient(left, rgba(35, 166, 194, 1.00),  rgba(24, 192, 183, 1.00));
+}
+
+@media screen and (max-width: 500px) {
+  .hero__btn {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .hero__btn-read {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero__btn {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .hero__btn-read {
+    font-size: 20px;
+    width: 80px;
+  }
+}

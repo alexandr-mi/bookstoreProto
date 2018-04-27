@@ -1,0 +1,7 @@
+.hero__bg, .hero__bg-svg, .hero__bg-img  {
+  font-size: 0;
+}
+.hero__bg-img {
+  fill: transparent;
+  transition: fill 2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}

@@ -1,1 +1,19 @@
 /* hero */
+.hero {
+  position: relative;
+}
+
+/* hero bg*/
+@import 'bg';
+/* hero container*/
+@import 'container';
+/* hero left*/
+@import 'left';
+/* hero right*/
+@import 'right';
+/* hero title*/
+@import 'title';
+/* hero rating*/
+@import 'rating';
+/* hero btns*/
+@import 'btns';

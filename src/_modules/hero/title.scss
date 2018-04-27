@@ -1,0 +1,42 @@
+.hero__book-title {
+  margin-bottom: 20px;
+}
+.hero__book-style, .hero__book-name, .hero__book-author {
+  margin: 0 0 5px;
+}
+
+.hero__book-style {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.hero__book-name {
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.hero__book-author {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@media screen and (max-width: 500px) {
+  .hero__book-title {
+    margin-bottom: 10px;
+  }
+  .hero__book-style, .hero__book-name, .hero__book-author {
+    margin: 0 0 2px;
+  }
+  .hero__book-style {
+    font-size: 14px;
+  }
+
+  .hero__book-name {
+    font-size: 24px;
+  }
+
+  .hero__book-author {
+    font-size: 15px;
+  }
+}

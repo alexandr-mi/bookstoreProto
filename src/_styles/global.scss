@@ -1,5 +1,8 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,800');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,400,700');
 // global style
-
 *,
 *:before,
 *:after {
@@ -8,8 +11,28 @@
   box-sizing: border-box;
 }
 
+section {
+  font-size: 0;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: 'IBM Plex Serif', serif;
+}
 .container {
   max-width: 600px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.shadow {
+  box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
+}
+.content {
+  transition: filter 0.1s;
+}
+
+.content.blur {
+  filter: blur(5px);
 }

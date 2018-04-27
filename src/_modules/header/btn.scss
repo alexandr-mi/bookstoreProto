@@ -1,10 +1,11 @@
-$size: 35px;
+$sizeS: 20px;
+$sizeM: 35px;
 
 .header__btn {
-  width: $size;
-  height: $size;
-  line-height: $size;
-  font-size: $size;
+  width: $sizeS;
+  height: $sizeS;
+  line-height: $sizeS;
+  font-size: $sizeS;
   cursor: pointer;
 }
 
@@ -16,5 +17,14 @@ $size: 35px;
 .header__btn:active {
   .header__btn-icon {
     color: rgba(black, 0.2);
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header__btn {
+    width: $sizeM;
+    height: $sizeM;
+    line-height: $sizeM;
+    font-size: $sizeM;
   }
 }

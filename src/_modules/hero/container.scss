@@ -1,0 +1,13 @@
+.hero__main {
+  z-index: 1;
+  position: absolute;
+  bottom: -8%;
+  left: 0;
+  width: 100%;
+}
+
+.hero__main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
